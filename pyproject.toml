@@ -8,7 +8,7 @@ authors = ["rcmdnk <rcmdnk@gmail.com>"]
 python = "^3.12"
 
 [tool.poetry.group.dev.dependencies]
-pytest = "^8.0.0"
+pytest = ">=8,<10"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
